@@ -5,7 +5,7 @@ function SuccessScreen() {
   const location = useLocation();
   const { name } = location.state || { name: 'User' };
   const navigate = useNavigate();
-  const [countdown, setCountdown] = useState(countdown * 1000);
+  const [countdown, setCountdown] = useState(3);
 
   useEffect(() => {
     const timer = setInterval(() => {
