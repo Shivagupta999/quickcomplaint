@@ -1,0 +1,31 @@
+# Node modules
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build outputs
+dist/
+dist-ssr/
+client/dist/
+server/dist/
+
+# Logs
+logs
+*.log
+
+# Local env files
+.env
+client/.env
+server/.env
+
+# IDE files
+.vscode/
+.idea/
+.DS_Store
+
+# OS files
+*.local
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
